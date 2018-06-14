@@ -110,37 +110,5 @@
 
         </div>
 </form>
-<!-- Updater -->
-  <div class="panel panel-primary" data-collapsed="0">
-
-            <div class="panel-heading">
-                <div class="panel-title">
-                    <?php echo get_phrase('update_product');?>
-                </div>
-            </div>
-
-
-            <div class="panel-body form-horizontal form-groups-bordered">
-                <?php echo form_open(base_url().'index.php?updater/update' , array('class' => 'form-horizontal form-groups-bordered', 'enctype' => 'multipart/form-data'));?>
-
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label"><?php echo get_phrase('file'); ?></label>
-
-                        <div class="col-sm-5">
-
-                            <input type="file" name="file_name" class="form-control file2 inline btn btn-primary" data-label="<i class='glyphicon glyphicon-file'></i> Browse" />
-
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="col-sm-offset-3 col-sm-5">
-                            <input type="submit" class="btn btn-info" value="<?php echo get_phrase('install_update'); ?>" />
-                        </div>
-                    </div>
-
-                <?php echo form_close(); ?>
-            </div>
-        </div>
 </div>
 </div>

@@ -804,8 +804,8 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`settings_id`, `type`, `description`) VALUES
-(1, 'system_name', 'Bayanno Hospital Management System'),
-(2, 'system_title', 'Bayanno Hospital Management System'),
+(1, 'system_name', 'iCMS'),
+(2, 'system_title', 'iCMS'),
 (3, 'address', ''),
 (4, 'phone', ''),
 (5, 'paypal_email', ''),
