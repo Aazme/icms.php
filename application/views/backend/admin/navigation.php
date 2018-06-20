@@ -89,26 +89,10 @@
             </a>
         </li>
         
-        <li class="<?php if ($page_name == 'manage_nurse') echo 'active'; ?> ">
-            <a href="<?php echo base_url(); ?>index.php?admin/nurse">
-                <i class="fa fa-plus-square"></i>
-                <span><?php echo get_phrase('nurse'); ?></span>
-            </a>
-        </li>
         
-        <li class="<?php if ($page_name == 'manage_pharmacist') echo 'active'; ?> ">
-            <a href="<?php echo base_url(); ?>index.php?admin/pharmacist">
-                <i class="fa fa-medkit"></i>
-                <span><?php echo get_phrase('pharmacist'); ?></span>
-            </a>
-        </li>
+       
         
-        <li class="<?php if ($page_name == 'manage_laboratorist') echo 'active'; ?> ">
-            <a href="<?php echo base_url(); ?>index.php?admin/laboratorist">
-                <i class="fa fa-user"></i>
-                <span><?php echo get_phrase('laboratorist'); ?></span>
-            </a>
-        </li>
+        
         
         <li class="<?php if ($page_name == 'manage_accountant') echo 'active'; ?> ">
             <a href="<?php echo base_url(); ?>index.php?admin/accountant">
@@ -140,30 +124,10 @@
                         <span><?php echo get_phrase('payment_history'); ?></span>
                     </a>
                 </li>
-                <li class="<?php if ($page_name == 'show_bed_allotment') echo 'active'; ?> ">
-                    <a href="<?php echo base_url(); ?>index.php?admin/bed_allotment">
-                        <i class="entypo-dot"></i>
-                        <span><?php echo get_phrase('bed_allotment'); ?></span>
-                    </a>
-                </li>
-                <li class="<?php if ($page_name == 'show_blood_bank') echo 'active'; ?> ">
-                    <a href="<?php echo base_url(); ?>index.php?admin/blood_bank">
-                        <i class="entypo-dot"></i>
-                        <span><?php echo get_phrase('blood_bank'); ?></span>
-                    </a>
-                </li>
-                <li class="<?php if ($page_name == 'show_blood_donor') echo 'active'; ?> ">
-                    <a href="<?php echo base_url(); ?>index.php?admin/blood_donor">
-                        <i class="entypo-dot"></i>
-                        <span><?php echo get_phrase('blood_donor'); ?></span>
-                    </a>
-                </li>
-                <li class="<?php if ($page_name == 'show_medicine') echo 'active'; ?> ">
-                    <a href="<?php echo base_url(); ?>index.php?admin/medicine">
-                        <i class="entypo-dot"></i>
-                        <span><?php echo get_phrase('medicine'); ?></span>
-                    </a>
-                </li>
+                
+                
+              
+                
                 <li class="<?php if ($page_name == 'show_operation_report') echo 'active'; ?> ">
                     <a href="<?php echo base_url(); ?>index.php?admin/operation_report">
                         <i class="entypo-dot"></i>

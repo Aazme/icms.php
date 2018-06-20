@@ -103,20 +103,8 @@
                     <span><?php echo get_phrase('patient'); ?></span>
                 </a>
         </li>
+       
         
-        <li class="<?php if ($page_name == 'manage_bed_allotment') echo 'active'; ?> ">
-            <a href="<?php echo base_url(); ?>index.php?doctor/bed_allotment">
-                <i class="fa fa-hdd-o"></i>
-                <span><?php echo get_phrase('bed_allotment'); ?></span>
-            </a>
-        </li>
-        
-        <li class="<?php if ($page_name == 'show_blood_bank') echo 'active'; ?> ">
-            <a href="<?php echo base_url(); ?>index.php?doctor/blood_bank">
-                <i class="fa fa-tint"></i>
-                <span><?php echo get_phrase('blood_bank'); ?></span>
-            </a>
-        </li>
         
         <li class="<?php if ($page_name == 'manage_report') echo 'active'; ?> ">
             <a href="<?php echo base_url(); ?>index.php?doctor/report">

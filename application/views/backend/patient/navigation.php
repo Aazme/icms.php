@@ -103,19 +103,8 @@
             </a>
         </li>
         
-        <li class="<?php if ($page_name == 'show_blood_bank') echo 'active'; ?> ">
-            <a href="<?php echo base_url(); ?>index.php?patient/blood_bank">
-                <i class="fa fa-tint"></i>
-                <span><?php echo get_phrase('blood_bank'); ?></span>
-            </a>
-        </li>
         
-        <li class="<?php if ($page_name == 'show_admit_history') echo 'active'; ?> ">
-            <a href="<?php echo base_url(); ?>index.php?patient/admit_history">
-                <i class="fa fa-hdd-o"></i>
-                <span><?php echo get_phrase('admit_history'); ?></span>
-            </a>
-        </li>
+        
         
         <li class="<?php if ($page_name == 'show_operation_history') echo 'active'; ?> ">
             <a href="<?php echo base_url(); ?>index.php?patient/operation_history">
