@@ -64,10 +64,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '12345678',
-	'database' => 'icms',
+	'hostname' => 'sql10.freemysqlhosting.net',
+	'username' => 'sql10243717',
+	'password' => '1D6HZzvkVB',
+	'database' => 'sql10243717',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
