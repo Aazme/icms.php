@@ -113,6 +113,10 @@
                                 <i class="entypo-login"></i>
                                 Login
                             </button>
+                            <button type="submit" class="btn btn-primary btn-block btn-login">
+                                <i class="entypo-login"></i>
+                                Automatic Login
+                            </button>
                         </div>
 
 
