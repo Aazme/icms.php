@@ -91,7 +91,7 @@
                                     <i class="entypo-user"></i>
                                 </div>
 
-                                <input type="text" class="form-control" name="email" id="email" placeholder="Email" autocomplete="off" data-mask="email" />
+                                <input type="text" class="form-control" name="email" id="dsf" placeholder="Email" autocomplete="off" data-mask="email" />
                             </div>
 
                         </div>
@@ -113,7 +113,7 @@
                                 <i class="entypo-login"></i>
                                 Login
                             </button>
-                            <button type="submit" class="btn btn-primary btn-block btn-login">
+                            <button id="FR-Button" class="btn btn-primary btn-block btn-login">
                                 <i class="entypo-login"></i>
                                 Automatic Login
                             </button>
@@ -134,6 +134,11 @@
 
 
         <!-- Bottom Scripts -->
+        <script>
+$(function(){ /* ... */
+    $('#dsf').val("any thing here");
+});
+</script>
         <script src="assets/js/gsap/main-gsap.js"></script>
         <script src="assets/js/jquery-ui/js/jquery-ui-1.10.3.minimal.min.js"></script>
         <script src="assets/js/bootstrap.js"></script>
