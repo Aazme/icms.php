@@ -91,7 +91,7 @@
                                     <i class="entypo-user"></i>
                                 </div>
 
-                                <input type="text" class="form-control" name="email" id="dsf" placeholder="Email" autocomplete="off" data-mask="email" />
+                                <input type="text" class="form-control" name="email" id="email" placeholder="Email" autocomplete="off" data-mask="email" />
                             </div>
 
                         </div>
@@ -134,16 +134,12 @@
 
 
         <!-- Bottom Scripts -->
-        <script>
-$(function(){ /* ... */
-    $('#dsf').val("any thing here");
-});
-</script>
+
         <script src="assets/js/gsap/main-gsap.js"></script>
         <script src="assets/js/jquery-ui/js/jquery-ui-1.10.3.minimal.min.js"></script>
         <script src="assets/js/bootstrap.js"></script>
         <script src="assets/js/joinable.js"></script>
-        <script src="assets/js/resizeable.js"></script>
+        <script     ="assets/js/resizeable.js"></script>
         <script src="assets/js/neon-api.js"></script>
         <script src="assets/js/jquery.validate.min.js"></script>
         <script src="assets/js/neon-login.js"></script>
