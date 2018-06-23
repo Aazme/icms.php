@@ -34,7 +34,47 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
         <link rel="shortcut icon" href="assets/images/favicon.png">
+        <style>
+        
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+        </style>
     </head>
     <body class="page-body login-page login-form-fall" data-url="http://neon.dev">
 
@@ -101,6 +141,7 @@
                             <div class="input-group">
                                 <div class="input-group-addon">
                                     <i class="entypo-key"></i>
+ 
                                 </div>
 
                                 <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off" />
@@ -113,10 +154,14 @@
                                 <i class="entypo-login"></i>
                                 Login
                             </button>
+                            <button id="FR-Button" class="btn btn-primary btn-block btn-login">
+                                <i class="entypo-login"></i>
+                                Automatic Login
+                            </button>
                         </div>
 
 
-                    </form>
+                            </form>
 
 					<a href="<?php echo base_url();?>index.php?login/forgot_password">
 						<b><?php echo get_phrase('forgot_password');?> ?</b>
@@ -127,14 +172,53 @@
             </div>
 
         </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+  </div>
+
+
 
 
         <!-- Bottom Scripts -->
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("FR-Button");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
         <script src="assets/js/gsap/main-gsap.js"></script>
         <script src="assets/js/jquery-ui/js/jquery-ui-1.10.3.minimal.min.js"></script>
         <script src="assets/js/bootstrap.js"></script>
         <script src="assets/js/joinable.js"></script>
-        <script src="assets/js/resizeable.js"></script>
+        <script     ="assets/js/resizeable.js"></script>
         <script src="assets/js/neon-api.js"></script>
         <script src="assets/js/jquery.validate.min.js"></script>
         <script src="assets/js/neon-login.js"></script>
