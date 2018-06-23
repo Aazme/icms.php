@@ -19,7 +19,11 @@
     </div>
 </div>
 
-
+<script src="https://cdn.recast.ai/webchat/webchat.js"
+channelId="c0ce4b08-d146-4152-a9ea-281a5f4afed0"
+token="a72122172bbe01ea2a8a3efafddd1cfc"
+id="recast-webchat"
+></script>
 <script type="text/javascript">
     
     $(document).ready(function()
